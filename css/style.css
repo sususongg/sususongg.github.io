@@ -159,9 +159,9 @@ a:hover {
 	/*width: 44vw;*/
 	/*height: 50vh;*/
   /*top: -140%;*/
-  left: 200px;
+  right: 450px;
 	/*border: 2px solid black;*/
-	top: 115vh;
+	top: 135vh;
 	/*background-image: url('../images/14.png');*/
 	/*background-size: cover;*/
 }
@@ -389,7 +389,7 @@ a:hover {
 }
 
 
-
+/*앞머리*/
 .box08{
 	/*position: absolute;*/
 	bottom: -30%;
@@ -397,8 +397,8 @@ a:hover {
 	/*border: 2px solid black;*/
 	width: 40vw;
 	height: 30vh;
-	background-image: url('../images/15.jpg');
-	background-size: cover;
+	/*background-image: url('../images/15.jpg');*/
+	size: cover;
 }
 
 .box08:hover {
@@ -419,6 +419,23 @@ a:hover {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+#image15{
+  position: relative;
+  cursor: pointer;
+}
+
+#hair{
+  display: none;
+      position: absolute;
+      z-index: 1;
+      width: 15vw;
+}
+
+#image15:hover + #hair{
+  display: block;
 }
 
 
@@ -475,8 +492,8 @@ a:hover {
 /*트럼프*/
 .box10{
 	position: absolute;
-	bottom: -90%;
-	right: 10vh;
+	bottom: -80%;
+	right: -10%;
 	/*border: 2px solid black;*/
 	width: 40vw;
 	height: 60vh;
